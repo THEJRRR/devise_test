@@ -1,0 +1,22 @@
+require "minitest/autorun"
+
+# describe "Solitaire Cypher!"  do
+# 	inlcude SolitaireCypher
+
+# 1. Discard any non A to Z characters, 
+# and uppercase all remaining letters. 
+# Split the message into five character 
+# groups, using Xs to pad the last group, 
+# if needed. 
+
+# it "should_remove_any_non_A_to_Z_characters" do
+# 	encyphened = encyphen "!$_ARHello"
+# 	encyphened.must_equal "ARHello"
+# end
+	
+
+
+
+# .scan(/.{5}|.+/).join(' ')
+# .scan(/.{1}|.+/).join(' ')
+# .gsub(/[A-Z]/) {|m| m.ord - 64}
